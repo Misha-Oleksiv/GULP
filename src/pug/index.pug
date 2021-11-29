@@ -1,0 +1,78 @@
+extends common/layout 
+
+block content 
+	section.works
+	.container
+		.works__body
+		h3.works__body_title.title How Dreamshare works?
+		.works__body__row
+			.works__body__row__card.step1
+				.works__body__row__card__button
+				button.works__body__row__card__button-btn STEP 1
+				h3.works__body__row__card-title Sed leo enim, condimentum
+				p.works__body__row__card-text
+				| Quisque libero libero, dictum non turpis in, luctus semper lorem. Donec rhoncus a leo sit amet facilisis.
+			.works__body__row__card.step2
+				.works__body__row__card__button
+				button.works__body__row__card__button-btn STEP 2
+				h3.works__body__row__card-title Morbi velit risus
+				p.works__body__row__card-text
+				| Nulla venenatis tempor dui in molestie. Nulla quis dictum purus, sit amet porttitor est.
+			.works__body__row__card.step3
+				.works__body__row__card__button
+				button.works__body__row__card__button-btn STEP 3
+				h3.works__body__row__card-title Sed leo enim, condimentum
+				p.works__body__row__card-text
+				| Quisque libero libero, dictum non turpis in, luctus semper lorem. Donec rhoncus a leo sit amet facilisis.
+	section.partner
+		.container
+			.partner__body
+			h3.partner__body-title.title Meet a partner for your best holiday
+			.partner__body__row
+				.partner__body__row__card
+					img.partner__body__row__card-img(src='./images/Bradley-Hunter.png', alt='Bradley Hunter Photo')
+					h5.partner__body__row__card-name Bradley Hunter
+					p.partner__body__row__card-info
+					| Based in Chicago. I love playing tennis and loud music.
+				.partner__body__row__card
+					img.partner__body__row__card-img(src='./images/Marie-Bennett.png', alt='Marie Bennett Photo')
+					h5.partner__body__row__card-name Marie Bennett
+					p.partner__body__row__card-info
+					| Currently living in Colorado. Lover of art, languages and travelling.
+				.partner__body__row__card
+					img.partner__body__row__card-img(src='./images/Diana-Wells.png', alt='Diana Wells Photo')
+					h5.partner__body__row__card-name Bradley Hunter
+					p.partner__body__row__card-info
+					| Living in Athens, Greece. I love black and white classics, chillout music and green tea.
+				.partner__body__row__card
+					img.partner__body__row__card-img(src='./images/Christopher-Pierce.png', alt='Christopher Pierce Photo')
+					h5.partner__body__row__card-name Christopher Pierce
+					p.partner__body__row__card-info
+					| Star Wars fanatic. I have a persistent enthusiasm to create new things.
+	section.activity
+	.container
+		.activity__body
+		h3.activity__body-title.title Discover holiday activity ideas
+		.activity__body__row
+			.activity__body__row__card.sport
+				h3.activity__body__row__card-title Sports and Activis
+			.activity__body__row__card.health
+				h3.activity__body__row__card-title Wellness and Health
+			.activity__body__row__card.expeditions
+				h3.activity__body__row__card-title Extreme sports and expeditions
+			.activity__body__row__card.games
+				h3.activity__body__row__card-title Games
+			.activity__body__row__card.culture
+				h3.activity__body__row__card-title Culture and Education
+			.activity__body__row__card.relaxation
+				h3.activity__body__row__card-title Enjoment and Relaxation
+			.activity__body__row__card.traveling
+				h3.activity__body__row__card-title Travelling
+	section.holiday__form
+		.container
+			.holiday__form__body
+			h3.holiday__form__body-title.title Crate your holiday activity
+			.holiday__form__body-subtitle Hi! What are your holiday interests?
+			.holiday__form__body__row
+				input.holiday__form__body__row-form(type='text', name='interests', value='', placeholder='Enter your interests')
+				button.holiday__form__body__row-btn(type='button') Search partners
